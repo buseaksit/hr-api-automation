@@ -22,7 +22,7 @@ export default defineConfig(
     },
     projects:[
         {
-            name: 'HR-API-Tests-Staging',
+            name: 'HR-API-AUTOMATION',
             testMatch: '**/*.spec.ts'
         }
     ],

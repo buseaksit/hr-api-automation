@@ -9,7 +9,7 @@ export interface Location{
     country_id?: string | null;
 }
 export class LocationsEndpoint extends BaseEndpoint<Location>{
-    protected basePath = "/api/locaitons";
+    protected basePath = "/api/locations";
     protected requiredFields = ['location_id', 'city'];
     
 }
