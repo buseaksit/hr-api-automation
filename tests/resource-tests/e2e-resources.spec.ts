@@ -80,7 +80,8 @@ test.describe("E2E Department & Employee Relation Scenarios",()=>{
             
                     const createdEmp = await employees.create(empPayload,201);
                     await apiHelper.containsKey(createdEmp,'employee_id',employeeID);
-
+                    
+                    const delEmpResp = await apiHelper.delete(`/api/employees/${employeeID}`)
                     const delResp = await apiHelper.delete(`/api/departments/${Department_id}`);
                     expect(delResp.status()).toBe(400);
                     const delRespJson= await apiHelper.getJSON(delResp);
