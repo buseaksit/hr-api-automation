@@ -28,6 +28,7 @@ and business-rule requirements, while maintaining clean and scalable code.
 hr-api-automation/
 │
 ├── config/ # Configuration files (URLs, env setup)
+│
 ├── tests/ # Test specs for each API endpoint
 │ ├── employees.spec.ts
 │ ├── departments.spec.ts
