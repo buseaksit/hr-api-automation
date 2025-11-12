@@ -1,15 +1,15 @@
-HR API Automation Framework
+# 🧠 HR API Automation Framework
 This project automates **HR API testing** using **Playwright + TypeScript**.  
 It is designed as part of my SDET/QA Automation learning path and demonstrates  
 skills in **API testing**, **framework design**, and **CI/CD integration**.
 
-Project Overview
+## 🚀 Project Overview
 The goal of this project is to validate CRUD (Create, Read, Update, Delete) operations  
 for a Human Resources API — including Employees, Departments, and Jobs endpoints.
 This framework ensures that all API responses meet functional, schema,  
 and business-rule requirements, while maintaining clean and scalable code.
 
-Tech Stack
+## 🧱 Tech Stack
 | Category | Tools / Technologies |
 |-----------|----------------------|
 | Language | TypeScript |
@@ -20,3 +20,26 @@ Tech Stack
 | Version Control | Git + GitHub |
 | Environment Management | dotenv (`.env`) |
 | IDE | Visual Studio Code |
+
+---
+
+## 📂 Folder Structure
+
+hr-api-automation/
+│
+├── config/ # Configuration files (URLs, env setup)
+├── tests/ # Test specs for each API endpoint
+│ ├── employees.spec.ts
+│ ├── departments.spec.ts
+│ └── jobs.spec.ts
+│
+├── utils/ # Reusable helpers & payload builders
+│ └── commonUtils.ts
+│
+├── notes/ # Study notes (Git, Jenkins, etc.)
+│
+├── playwright.config.ts # Playwright configuration file
+├── package.json # Dependencies and scripts
+├── .env.example # Example of environment variables
+├── .gitignore
+└── README.md
