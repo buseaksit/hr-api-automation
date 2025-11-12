@@ -22,25 +22,3 @@ and business-rule requirements, while maintaining clean and scalable code.
 | IDE | Visual Studio Code |
 
 ---
-
-## 📂 Folder Structure
-
- hr-api-automation/
-│
-├── config/ # Configuration files (URLs, env setup)
-│
-├── tests/ # Test specs for each API endpoint
-│ ├── employees.spec.ts
-│ ├── departments.spec.ts
-│ └── jobs.spec.ts
-│
-├── utils/ # Reusable helpers & payload builders
-│ └── commonUtils.ts
-│
-├── notes/ # Study notes (Git, Jenkins, etc.)
-│
-├── playwright.config.ts # Playwright configuration file
-├── package.json # Dependencies and scripts
-├── .env.example # Example of environment variables
-├── .gitignore
-└── README.md
