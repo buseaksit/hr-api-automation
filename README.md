@@ -25,7 +25,7 @@ and business-rule requirements, while maintaining clean and scalable code.
 
 ## 📂 Folder Structure
 
-hr-api-automation/
+ hr-api-automation/
 │
 ├── config/ # Configuration files (URLs, env setup)
 │
