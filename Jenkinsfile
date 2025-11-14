@@ -11,7 +11,7 @@ pipeline{
             }
         }
 
-    }
+    
 
     stage('Setup Node Environment'){
         steps{
@@ -32,6 +32,7 @@ pipeline{
         steps{
             archiveArtifacts artifacts: 'playwright-report/**', fingerprint: true
         }
+    }
     }
 
     post{
